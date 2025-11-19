@@ -1,4 +1,4 @@
-Disclaimer: Most of the code has been left out as this app is/was used for commercial purposes. This is merely a demonstration for my portfolio. 
+Disclaimer: This is not a full working upload of the app. Certain parts of the code (and project/environment files) have been left out as the project is/was in use commercially. 
 
 <h1>Midi App for Android</h1>
 
@@ -10,7 +10,7 @@ See more here: https://en.wikipedia.org/wiki/MIDI </br>
 
 <h3>RTP-MIDI</h3>
 This app supports the RTP-MIDI protocol which allows sending MIDI packets over ethernet and wifi. This requires the RTP-MIDI driver to be installed on windows (I believe it comes natively with Apple). </br>
-I implemented this protocol myself in android as there was no native implementation for it at the time of building </br>
+I implemented this protocol myself in android as there was no native implementation for it at the time of building (code in MidiAPp/Midi/RTP) </br>
 See more here: https://en.wikipedia.org/wiki/RTP-MIDI
 
 <h2>App Screens</h2>
@@ -43,3 +43,4 @@ This app supports two connection methods: USB and Wifi (RTP-MIDI protocol).
 
 <h3>Settings</h3>
 
+![demo](Media/Screenshot5.png)
