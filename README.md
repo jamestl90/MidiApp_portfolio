@@ -8,6 +8,9 @@ MIDI is a format for sending packets of information to a DAW (desktop audio work
 For example when I press a key it would send "Start playing this note" and when I release the key it sends "Stop playing this note" message. You can also control other parameters which can be bound to different signals. For example I can bind a dial to the volume or the filter of a low pass filter so when I adjust the dial it will appropriately adjust those parameters in the software. </br>
 See more here: https://en.wikipedia.org/wiki/MIDI </br>
 
+<h3>Mono</h3>
+This project was developed using mono for android (allow C# and .NET for android).
+
 <h3>RTP-MIDI</h3>
 This app supports the RTP-MIDI protocol which allows sending MIDI packets over ethernet and wifi. This requires the RTP-MIDI driver to be installed on windows (I believe it comes natively with Apple). </br>
 I implemented this protocol myself in android as there was no native implementation for it at the time of building (code in MidiAPp/Midi/RTP) </br>
